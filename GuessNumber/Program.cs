@@ -20,7 +20,7 @@ namespace GuessNumber
                 int numberInput = int.Parse(input);
                 if (numberInput == nr)
                 {
-                    Console.WriteLine("You won");
+                    Console.WriteLine("You won!");
                     break;
                 }
                 else if (numberInput < nr)
